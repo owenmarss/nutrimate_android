@@ -7,6 +7,10 @@ android {
     namespace = "com.example.nutrimate"
     compileSdk = 33
 
+    viewBinding {
+        enable = true
+    }
+
     defaultConfig {
         applicationId = "com.example.nutrimate"
         minSdk = 24
