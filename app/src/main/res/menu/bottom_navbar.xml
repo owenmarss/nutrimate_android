@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--        Bikin UI Home dlu-->
+    <item
+        android:id="@+id/logoHome"
+        android:icon="@drawable/outline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/foodDirectory"
+        android:icon="@drawable/outline_fastfood_24"
+        android:title="Food" />
+
+    <item
+        android:id="@+id/logoCalculator"
+        android:icon="@drawable/outline_calculate_24"
+        android:title="Calculator" />
+
+    <item
+        android:id="@+id/logoArticle"
+        android:icon="@drawable/outline_article_24"
+        android:title="Article" />
+
+    <item
+        android:id="@+id/logoProfileBottom"
+        android:icon="@drawable/outline_person_24"
+        android:title="Profile" />
+</menu>

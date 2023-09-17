@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/foodDirectory">
+    <fragment
+        android:id="@+id/foodDirectory"
+        android:name="com.example.nutrimate.FoodDirectory"
+        android:label="fragment_food_directory"
+        tools:layout="@layout/fragment_food_directory" />
+    <fragment
+        android:id="@+id/landingPage"
+        android:name="com.example.nutrimate.LandingPage"
+        android:label="fragment_landing_page"
+        tools:layout="@layout/fragment_landing_page" />
+</navigation>
