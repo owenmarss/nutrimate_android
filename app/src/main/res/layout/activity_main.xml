@@ -20,6 +20,10 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/footer"
+        android:background="@color/primary"
+        app:itemIconTint="@color/secondary"
+        app:itemTextColor="@color/secondary"
+        app:itemRippleColor="@color/additional1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
